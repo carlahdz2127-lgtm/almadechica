@@ -529,6 +529,11 @@ h2 {
     .grid-wrapper{
         grid-template-columns: 1fr;
     }
+    .sectionForm{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+    }
 }
 
 /* Breakpoints */
