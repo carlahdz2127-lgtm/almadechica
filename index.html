@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Almadechica</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="menu container">
+            <a href="#" class="logo">hotel</a>
+            <input type="checkbox" id="menu" />
+            <label for="menu">
+                <img src="img/menu.png" class="menu-icono" alt="menu">
+            </label>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#inicios">Inicio</a></li>
+                    <li><a href="#servi">Servicios</a></li>
+                    <li><a href="#prods">Habitaciones</a></li>
+                    <li><a href="#cont">Contacto</a></li>
+                </ul>
+            </nav>
+            <div>
+                <ul>
+                    <li class="submenu">
+                        <img id="img-carrito" src="img/carr1.png" alt="car">
+                        <div id="carrito">
+                            <table id="lista-carrito">
+                                <thead>
+                                    <tr>
+                                        <th>Imagen</th>
+                                        <th>Nombre</th>
+                                        <th>Precio</th>
+                                    </tr>
+                                </thead>
+                                <tbody></tbody>
+                            </table>
+                            <a href="#" id="vaciar-carrito">Vaciar Carrito</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="header-content container" id="inicios">
+            <div class="header-txt">
+                <span>BIENVENIDA</span>
+                <h1>Alma de Chica</h1>
+                <p>
+                     En Alma de Chica creemos que cada mujer merece un espacio donde pueda sentirse libre,
+                    auténtica y especial.
+                     Hemos creado este lugar pensando en quienes buscan mucho más que un simple hospedaje:
+                    una experiencia llena de tranquilidad, inspiración y momentos inolvidables.
+                     Aquí podrás desconectarte de la rutina, disfrutar de nuevas aventuras y regalarte el tiempo que te mereces.
+                     Queremos que cada visita se convierta en una historia que quieras recordar.
+                </p>
+                <div class="butons">
+                    <a href="#" class="btn-1">información</a>
+                    <a href="#" class="btn-1">leer más</a>
+                </div>
+            </div>
+            <div class="header-img">
+                <img src="img/imagen2.jpg" alt="">
+            </div>
+        </div>
+    </header>
+
+    <section id="servi" class="oferts container">
+
+        <div class="ofert-1 b1">
+            <div class="ofert-txt">
+                <h3>Wi-Fi de cortecía</h3>
+                <h4>Conectate fácilmente durante tu estancia con nuestro servicio de internet disponible en todas las áreas del hotel.</h4>
+            </div>
+            <div class="ofert-img">
+                <img src="img/ab.png" alt="">
+            </div>
+        </div>
+        <div class="ofert-1 b2">
+            <div class="ofert-txt">
+                <h3>Estacionamiento privado</h3>
+                <h4>Tu comodidad comienza desde tu llegada. Contamos con estacionamiento privado y gratuito para nuestras huéspedes.</h4>
+            </div>
+            <div class="ofert-img">
+                <img src="img/ac.png" alt="">
+            </div>
+        </div>
+        <div class="ofert-1 b3">
+            <div class="ofert-txt">
+                <h3>Gastronomía en tu habitación</h3>
+                <h4>Date un gusto sin salir de tu habitación. Nuestro servicio de alimentos lleva hasta ti una selección de platillos preparados por nuestro chef.</h4>
+            </div>
+            <div class="ofert-img">
+                <img src="img/ad.png" alt="">
+            </div>
+        </div>
+    </section>
+
+    <div class="grid-wrapper">
+        <div class="tall">
+            <img src="img/1.jpg">
+        </div>
+        <div class="wide">
+            <img src="img/2.jpg">
+        </div>
+        <div class="big">
+            <img src="img/3.jpg">
+        </div>
+        <div>
+            <img src="img/4.jpg">
+        </div>
+        <div>
+            <img src="img/5.jpg">
+        </div>
+        <div class="wide">
+            <img src="img/6.jpg">
+        </div>
+        <div class="tall">
+            <img src="img/7.jpg">
+        </div>
+        <div>
+            <img src="img/8.jpg">
+        </div>
+        <div class="big">
+            <img src="img/9.jpg">
+        </div>
+        <div class="tall">
+            <img src="img/10.jpg">
+        </div>
+        <div>
+            <img src="img/11.jpg">
+        </div>
+        <div class="wide">
+            <img src="img/12.jpg">
+        </div>
+        <div>
+            <img src="img/13.jpg">
+        </div>
+    </div>
+
+    <main id="prods" class="products container">
+
+        <h2>Habitaciones</h2>
+
+        <div class="box-container" id="lista-1">
+
+            <div class="box">
+                <img src="img/estandar2.jpg" alt="">
+                <div class="product-txt">
+                    <h3>Estándar</h3>
+                    <p>Opción económica para llegar a descansar.</p>
+                    <p class="precio">$1,200</p>
+                    <a href="https://mpago.la/1G8uPf9" class="agregar-carrito btn-3" target="__blank">
+                        Pagar
+                    </a>
+                </div>
+            </div>
+             <div class="box">
+                <img src="img/superior2.jpg" alt="">
+                <div class="product-txt">
+                    <h3>Superior/Deluxe</h3>
+                    <p>Más espacio, mejor vista y cama más comoda.</p>
+                    <p class="precio">$2,200</p>
+                    <a href="https://mpago.li/1FFdBwT" class="agregar-carrito btn-3" target="__blank">
+                        Pagar
+                    </a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="img/suitej2.jpg" alt="">
+                <div class="product-txt">
+                    <h3>Suite Junior</h3>
+                    <p>Cuarto + salita sin divicion.</p>
+                    <p class="precio">$3,500</p>
+                    <a href="https://mpago.li/2wr1yTA" class="agregar-carrito btn-3" target="__blank">
+                        Pagar
+                    </a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="img/imgsuite1.jpg" alt="">
+                <div class="product-txt">
+                    <h3>Suite</h3>
+                    <p>Recámara y sala separadas.</p>
+                    <p class="precio">$5,500</p>
+                    <a href="https://mpago.lI/2VGipNw" class="agregar-carrito btn-3" target="__blank">
+                        Pagar
+                    </a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="img/imgmaster1.jpg" alt="">
+                <div class="product-txt">
+                    <h3>Master/Presidencial</h3>
+                    <p>La más grande y cara del hotel.</p>
+                    <p class="precio">$10,000</p>
+                    <a href="https://mpago.la/28QsiSZ" class="agregar-carrito btn-3" target="__blank">
+                        Pagar
+                    </a>
+                </div>
+            </div>
+
+
+        </div>
+        
+    </main>
+
+    <section id="#video" class="video">
+        <h2>LUXURY HOTEL VIDEO</h2>
+        <video src="img/videoplayback.mp4"  autoplay muted loop width="750"></video>
+          </section>
+
+    <section id="cont" class="testimonial container">
+        <span>Testimoniales</span>
+        <h2>¿Qué opinan nuestras clientes?</h2>
+        <div class="testimonial-content">
+            <div class="testimonial-1">
+                <p>
+                    Muchas gracias, un hotel
+                    increíble que superó todas mis expectativas.
+                </p>
+                <img src="img/star.png" alt="">
+                <h4>-Claudia Vidal</h4>
+            </div>
+            <div class="testimonial-1">
+                <p>
+                    Para mí es un 5 estrellas, el hotel es genial,
+                    las habitaciones son enormes y el ambiente es agradable y tranquilo.
+                    Es muy probable que volvamos pronto.
+                </p>
+                <img src="img/star.png" alt="">
+                <h4>-Marta</h4>
+            </div>
+        </div>
+    </section>
+
+     <section class="sectionForm">
+        <div class="ContactForm">
+            <div class="form">
+                <div class="texto">
+                <h2>¡Hablemos!</h2>
+                <p>Un espacio pensado por y para nosotras.
+                 Si tienes preguntas, peticiones especiales o solo quieres saludar, estás en casa.</p>
+            </div>
+
+            <form action="https://formsubmit.co/carlahdz2127@gmail.com" method="POST"> <div class="inputBox"> <label for="nombre">Tu nombre</label> <input type="text" id="nombre" name="nombre" placeholder="Nombre..." required > </div> <div class="inputBox"> <label for="email">Tu email</label> <input type="email" id="email" name="email" placeholder="Email..." required > </div> <div class="inputBox"> <label for="mensaje">Tu mensaje</label> <textarea name="mensaje" id="mensaje" cols="30" rows="5" placeholder="Mensaje..." required ></textarea> </div> <!-- Configuración del correo --> <input type="hidden" name="_subject" value="Nuevo mensaje - Hotel Alma de Chica" > <input type="hidden" name="_template" value="table" > <input type="hidden" name="_captcha" value="true" > <input type="submit" value="Enviar Mensaje" > </form>
+        </div>
+
+        <div class="info">
+            <div class="imgBox">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3750.8293360054217!2d-96.85286952568481!3d19.93159538145721!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85db11237232e069%3A0xd9cf63a0aac7544c!2sCEIT%20Misantla!5e0!3m2!1ses-419!2smx!4v1790101792020!5m2!1ses-419!2smx" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+            </div>
+                <div class="textBox">
+                    <div class="infoContact">
+                        <ion-icon name="map-outline"></ion-icon><p>Calle Col. Centro 123, Misantla.Veracruz</p>
+                    </div>
+                    <div class="infoContact">
+                        <ion-icon name="call-outline"></ion-icon></ion-icon><p>+52 123 345 5656</p>
+                    </div>
+                    <div class="infoContact">
+                        <ion-icon name="mail-outline"></ion-icon><p>www.hotelalmadechica.com</p>
+                    </div>
+                </div>
+                <div class="rrss">
+                  <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+                  <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
+                  <a href="#"><ion-icon name="logo-tiktok"></ion-icon></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <script type="module" src="https://unpkg.com/ionicons@8.0.13/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@8.0.13/dist/ionicons/ionicons"></script>
+</body>
+</html>
+
