@@ -575,6 +575,11 @@ h2 {
     width: 100%;
     height: 100%;
    }
+
+     .sectionForm  .ContactForm {
+    width: 100%;
+    height: 100%;
+}
 }
 
 @media (max-width:991px) {
