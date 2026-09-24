@@ -581,6 +581,10 @@ h2 {
     height: 100%;
    }
 
+    .header-content {
+    padding-top: 50px;
+}
+
 }
 
 @media (max-width:991px) {
